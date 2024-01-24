@@ -1,0 +1,120 @@
+.back {
+    background-image: url('flags.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 13pt;
+    }
+    
+.inner-div{
+    height: 200px;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.inner-div:hover{
+    text-decoration: underline;
+}
+
+.title{
+    font-family: sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 700px;
+    
+    }
+    .title-inner{
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 40pt;
+    }
+    .title-inner-1{
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 12pt;
+    }
+    @media(max-width:500px){
+        .navigation{
+            display: flex;
+            flex-direction: column;
+        }
+        .title-inner{
+            width:300px;
+        }
+    }
+
+    .body-site{
+        background-image: url('Backcolor.png');
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+
+        
+    }
+    
+    .body-flags{
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+
+       
+    }
+    .inner-flag{
+       width:calc(100% / 3);
+       height: 300px;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       display: flex;
+       
+    }
+    .lang {
+        width:170px;
+        height: 100px; 
+    }
+
+    .flg-decr{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .flg-decr:hover{
+        text-decoration: underline;
+    }
+    .body-title{
+        align-items: center;
+        color: black;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 27pt;
+    }
+    .list {
+        align-items: center;
+        color: black;
+        font-style: italic;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-weight: bold;
+        font-size: 27pt;
+    }
+    .space {
+        line-height: 45pt;
+    }
+    .question{
+        display: flex;
+        margin-top: 50px;
+        justify-content: flex-start;
+    }
